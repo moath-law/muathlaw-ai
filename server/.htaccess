@@ -1,0 +1,11 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^(data|lib)/ - [F,L]
+RewriteRule ^config\.php$ - [F,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+# تمرير ترويسة Authorization إلى PHP
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+# لا تظهر صفحات الموصل في محركات البحث
+Header set X-Robots-Tag "noindex, nofollow"

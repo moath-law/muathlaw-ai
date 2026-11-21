@@ -1,0 +1,4 @@
+server/config.php
+server/data/index.json
+server/data/*.tmp
+.DS_Store

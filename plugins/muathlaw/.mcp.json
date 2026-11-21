@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "muathlaw": {
+      "type": "http",
+      "url": "https://mcp.muathlaw.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "muathlaw",
+  "version": "1.0.0",
+  "description": "معاذ للمحاماة: البحث في مقالات وأحكام القضاء السعودي على muathlaw.com، حاسبة المستحقات العمالية، مبادئ المحكمة الإدارية العليا، أسلوب كتابة المذكرات، وصفّاف لتنسيق الأبحاث العربية.",
+  "author": {
+    "name": "المحامي معاذ علي عتين — شركة معاذ للمحاماة",
+    "url": "https://muathlaw.com"
+  },
+  "homepage": "https://muathlaw.com",
+  "repository": "https://github.com/moath-law/muathlaw-ai",
+  "license": "MIT",
+  "keywords": [
+    "saudi-law",
+    "arabic",
+    "legal",
+    "labor-law",
+    "قانون-سعودي",
+    "محاماة"
+  ],
+  "privacyPolicyUrl": "https://mcp.muathlaw.com/privacy"
+}
