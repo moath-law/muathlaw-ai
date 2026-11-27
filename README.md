@@ -16,6 +16,52 @@
 
 ---
 
+## 🧰 مهارات المحامي — كل مهارة برابط مستقل
+
+مهارات مجانية جاهزة تعمل داخل Claude. افتح رابط المهارة لترى شرحها الكامل وطريقة تثبيتها، أو حمّلها مباشرة.
+
+### 1. 📜 قارئ الصكوك
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/saudi-deed-reader](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/saudi-deed-reader) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/saudi-deed-reader.zip)
+
+ارفع صك الحكم أو الملكية أو الوكالة، واحصل على بياناته كاملة في جدول واحد خلال ثوانٍ، مع تنبيهات المحامي.
+
+### 2. ⏳ مستخرج المهل النظامية
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/appeal-deadline](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/appeal-deadline) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/appeal-deadline.zip)
+
+لا تفوّت مهلة اعتراض بعد اليوم: ارفع الحكم واعرف آخر يوم للاعتراض والأيام المتبقية بإشارة لونية.
+
+### 3. 🔄 مطابقة الجلسات
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/session-matcher](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/session-matcher) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/session-matcher.zip)
+
+قارن جلساتك في ناجز بتقويمك أو نظام مكتبك، واكتشف الجلسة الناقصة قبل أن تفوتك.
+
+### 4. 🏛️ مساعد ناجز (قراءة فقط)
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/najiz-assistant](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/najiz-assistant) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/najiz-assistant.zip)
+
+اطلب من Claude أن يقرأ لك ناجز من متصفحك: جلساتك القادمة، وآخر محضر جلسة، والأحكام الجديدة — دون أن يقدّم أو يرسل أي شيء.
+
+### 5. ✍️ كاتب صحيفة الدعوى
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/lawsuit-statement](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/lawsuit-statement) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/lawsuit-statement.zip)
+
+أعطه الوقائع والمستندات، وخذ صحيفة دعوى مرتبة وجاهزة للصق في ناجز، مع فحص شروط القبول قبل الرفع.
+
+### 6. 💬 محلل الواتساب كدليل
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/whatsapp-evidence](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/whatsapp-evidence) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/whatsapp-evidence.zip)
+
+حوّل محادثة الواتساب إلى دليل مرتب: خط زمني، وإقرارات ووعود بنصها، وتناقضات الخصم — جاهزة للمذكرة.
+
+### 7. 🛡️ فاحص العقود
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/contract-risk-review](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/contract-risk-review) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/contract-risk-review.zip)
+
+اعرف مخاطر العقد قبل أن يوقّع موكلك: جدول بالبنود الخطرة والناقصة، مع صياغة بديلة جاهزة لكل بند.
+
+### 8. 📨 ملخص الملف للعميل
+🔗 [https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/client-case-summary](https://github.com/moath-law/muathlaw-ai/tree/main/plugins/muathlaw/skills/client-case-summary) · 📥 [تحميل](https://github.com/moath-law/muathlaw-ai/raw/main/dist/client-case-summary.zip)
+
+حوّل محضر الجلسة أو الحكم إلى رسالة واضحة لعميلك يفهمها من أول قراءة، جاهزة للواتساب أو البريد.
+
+---
+
 ## التثبيت (اختر الأسهل لك)
 
 ### ⓪ الأسرع: اطلبه من Claude نفسه
@@ -67,7 +113,8 @@
 النتائج للتوعية وليست استشارة قانونية، ولا تنشئ علاقة محامٍ بموكل. للاستشارات: [muathlaw.com](https://muathlaw.com) — واتساب 0125118667.
 
 ## محتوى المستودع
-- `plugins/muathlaw/` — المكوّن الإضافي (الموصل + 4 مهارات).
+- `plugins/muathlaw/` — المكوّن الإضافي (الموصل + 12 مهارة).
+- `dist/` — ملفات zip لتحميل كل مهارة على حدة.
 - `server/` — كود خادم MCP (PHP) لمن يريد تشغيل نسخته الخاصة: انسخ المجلد إلى استضافة PHP 8.1+، وأعد تسمية `config.example.php` إلى `config.php` وغيّر `admin_token`، ثم أضف مهمة Cron تشغّل `reindex.php` كل 10 دقائق.
 
 ## الترخيص
